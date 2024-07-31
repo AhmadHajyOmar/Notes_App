@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tasks.HomePageController">
+
+         <children>
+            <ImageView fitHeight="303.0" fitWidth="467.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../images/todo_intro.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="openNotesPageButton" layoutX="34.0" layoutY="229.0" mnemonicParsing="false" onAction="#openNotesPage" prefHeight="38.0" prefWidth="197.0" style="-fx-background-color: C2BA6F;" text="Notes">
+                <font>
+                    <Font name="Arial Bold" size="21.0" />
+                </font>
+            </Button>
+         </children>
+</AnchorPane>
